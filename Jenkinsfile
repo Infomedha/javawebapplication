@@ -8,7 +8,7 @@ pipeline{
             }
         }
 	
-	 /*
+	 
         stage('Quality Gate Status Check'){
             steps{
                 script{
@@ -27,8 +27,7 @@ pipeline{
             }  
         }
 	
-	*/
-	
+		
         stage("Maven Build"){
             steps{
                 script{
